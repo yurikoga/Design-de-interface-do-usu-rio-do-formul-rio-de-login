@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #dde1e7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-card {
+    width: 350px;
+    padding: 40px 30px;
+    background: #dde1e7;
+    border-radius: 20px;
+    box-shadow: -3px -3px 7px #ffffff73,
+                 3px 3px 5px rgba(94, 104, 121, 0.288);
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    color: #595959;
+    margin-bottom: 30px;
+}
+
+.input-group {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 25px;
+}
+
+.input-group i {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    color: #595959;
+}
+
+.input-group input {
+    width: 100%;
+    height: 100%;
+    background: #dde1e7;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    padding-left: 50px;
+    font-size: 16px;
+    color: #595959;
+    /* Efeito de campo "esculpido" para dentro */
+    box-shadow: inset 2px 2px 5px #babecc,
+                inset -5px -5px 10px #ffffff73;
+}
+
+.forgot-pass {
+    margin: -10px 0 20px 5px;
+}
+
+.forgot-pass a {
+    font-size: 14px;
+    color: #3498db;
+    text-decoration: none;
+}
+
+.btn-signin {
+    width: 100%;
+    height: 50px;
+    border: none;
+    outline: none;
+    background: #dde1e7;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #595959;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px #babecc,
+                -5px -5px 10px #ffffff73;
+    transition: 0.2s;
+}
+
+.btn-signin:active {
+    /* Efeito de clique (botão afundando) */
+    box-shadow: inset 2px 2px 5px #babecc,
+                inset -5px -5px 10px #ffffff73;
+    transform: scale(0.98);
+}
+
+.signup-link {
+    margin-top: 25px;
+    text-align: center;
+    font-size: 14px;
+    color: #595959;
+}
+
+.signup-link a {
+    color: #3498db;
+    text-decoration: none;
+}
